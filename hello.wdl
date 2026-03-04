@@ -7,8 +7,6 @@ workflow hello_world {
 
     call write_greeting { 
         input: greet_name = name 
-    }
-}
 
 task write_greeting { 
     input {
