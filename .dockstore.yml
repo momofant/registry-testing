@@ -7,4 +7,4 @@ workflows:
      topic: Quality control of FASTQ data with single report
    - subclass: WDL
      name: hello
-     primaryDescriptoPath: /hello.wdl
+     primaryDescriptorPath: /hello.wdl
