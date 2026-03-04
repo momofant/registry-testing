@@ -1,0 +1,10 @@
+version: 1.2
+workflows:
+   - subclass: NFL
+     primaryDescriptorPath: /nextflow.config
+     readMePath: /README.md
+     name: fastqc
+     topic: Quality control of FASTQ data with single report
+   - subclass: WDL
+     name: hello
+     primaryDescriptoPath: /hello.wdl
