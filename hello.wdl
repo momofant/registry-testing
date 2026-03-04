@@ -1,4 +1,4 @@
-version 1.0 
+version 1.5 
 
 workflow hello_world { 
     input { 
@@ -7,7 +7,7 @@ workflow hello_world {
 
     call write_greeting { 
         input: greet_name = name 
-    }
+    
 }
 
 task write_greeting { 
