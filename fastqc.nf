@@ -22,25 +22,7 @@ process fastQC {
     """
 }
 
-process multiQC {
-    publishDir params.multiqcDir, mode: 'copy' 	// this time do not link but copy the output file
-
-    input:
-    path (inputfiles)
-
-    output:
-    path("multiqc_report.html")
-    path("multiqc_data/multiqc_fastqc.txt")
-
-    container 'quay.io/biocontainers/multiqc:1.21--pyhdfd78af_0'
-    script:
-    """
-    multiqc .
-    """
-}
-
 workflow {
     fastqc_out = fastQC(reads_for_fastqc)
-    multiQC_out = multiQC(fastqc_out.collect())
 }
 
