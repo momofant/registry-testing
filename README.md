@@ -1,4 +1,6 @@
 # registry-testing
 Public repo for tests of genespace-ru/registry project  
 try again to edit  
-next line
+next line  
+* 1 list item
+* 2 list item2
