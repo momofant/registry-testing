@@ -6,4 +6,3 @@ next line
 * 2 list item2
 * 3 list item 3
 * 4 list item4
-* 5 list item 5
