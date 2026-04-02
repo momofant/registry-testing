@@ -8,3 +8,6 @@ workflows:
    - subclass: WDL
      name: hello
      primaryDescriptorPath: /hello.wdl
+     authors:
+       - orcid: 0000-0002-9079-593X
+       - orcid: 0009-0008-6452-9030
