@@ -10,3 +10,4 @@ workflows:
      primaryDescriptorPath: /hello.wdl
      authors:
        - orcid: 0009-0008-6452-9030
+       - orcid: 0000-0002-0396-0256	
